@@ -1,0 +1,14 @@
+/* Jyotishmita Kakati STM32 Blink program. Can also be found pre-written in arduino ide*/
+
+
+
+void setup() {
+  pinMode(PC13, OUTPUT); // LED of STM32 is connected to pin 13 hence the declaration
+}
+
+void loop() {
+  digitalWrite(PC13, 1);  
+  delay(2000);          
+  digitalWrite(PC13, 0);    
+  delay(2000);              
+}
